@@ -13,6 +13,7 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "incremental": true,
+    "types": ["@vercel/node"],  // Add this line to include '@vercel/node' types
     "plugins": [
       {
         "name": "next"
